@@ -1,9 +1,8 @@
-import React from 'react';
-import { render, screen } from '@testing-library/react';
-import App from './App';
+import { render, screen } from "@testing-library/react";
+import App from "./App";
 
-test('renders learn react link', () => {
+test("renders the Tic Tac Toe game board", () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  const playerText = screen.getByText(/current player/i); // Change this line
+  expect(playerText).toBeInTheDocument(); // Check if "Current Player" is displayed
 });
