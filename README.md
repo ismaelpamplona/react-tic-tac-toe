@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# React Tic Tac Toe App
+
+<img src="./public/app-wide.png"/>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
